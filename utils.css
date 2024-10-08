@@ -19,6 +19,12 @@ main {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  background-color: inherit;
+  color: inherit;
+}
+
 ul li {
   list-style: none;
   padding: 5px;
