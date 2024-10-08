@@ -1,14 +1,17 @@
 body {
   font-family: "Arial", sans-serif;
   background-color: #f4f4f4;
-  color: #333;
 }
 
 .main-content {
   padding: 20px;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h1 {
+  padding: 20px 0px;
 }
 
 .featured-content {
@@ -21,7 +24,8 @@ body {
 .latest-news,
 .upcoming-matches {
   width: 48%;
-  background-color: #e6e6e6;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
   padding: 15px;
   border-radius: 8px;
 }
@@ -30,7 +34,7 @@ body {
   margin-top: 20px;
 }
 
-.hightlight-container {
+.highlight-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
@@ -42,25 +46,39 @@ body {
 }
 
 .team-card {
-  width: 100%;
   background-color: var(--white-color);
-  padding: 10px;
   border-radius: 8px;
 }
 
-.team-card img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
 }
 .team-logos {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .team-logos img {
   width: 100px;
   height: 100px;
+}
+
+.team-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -73,5 +91,8 @@ body {
   .latest-news,
   .upcoming-matches {
     width: 100%;
+  }
+  .highlight-container {
+    grid-template-columns: 1fr;
   }
 }
