@@ -80,6 +80,16 @@ body {
   align-items: center;
 }
 
+.team-cell {
+  width: clamp(20px, 20%, 50px);
+  display: flex;
+  align-items: center;
+}
+
+.team-cell img {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .featured-content {
     flex-direction: column;
