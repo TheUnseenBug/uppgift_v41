@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --primary-color: #0057b8;
+  --white-color: #ffffff;
+  --accent-color: #ffd700;
+  --black-color: #000000;
+  --secondary-color: #a3c1e1;
+  --font-family: "Arial", sans-serif;
+  font-size: clamp(1rem, 2vw, 0.6rem);
+}
+
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+}
+ul :hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navbar {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  color: #fff;
+  padding: 15px 0px;
+  z-index: 100;
+  color: var(--accent-color);
+}
+.nav-list {
+  display: flex;
+  gap: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

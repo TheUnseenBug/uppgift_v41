@@ -1,0 +1,77 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.main-content {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.featured-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.latest-news,
+.upcoming-matches {
+  width: 48%;
+  background-color: #e6e6e6;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.team-highlights {
+  margin-top: 20px;
+}
+
+.hightlight-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-card {
+  width: 100%;
+  background-color: var(--white-color);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.team-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.team-logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-logos img {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 768px) {
+  .featured-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .latest-news,
+  .upcoming-matches {
+    width: 100%;
+  }
+}
