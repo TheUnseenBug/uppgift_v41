@@ -1,8 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: var(--black-color);
-  color: var(--white-color);
 }
 :root {
   --primary-color: #0057b8;
