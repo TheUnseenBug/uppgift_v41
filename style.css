@@ -1,8 +1,6 @@
 .main-content {
   padding: 20px;
-  background-color: var(--white-color);
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .main-content h1 {
@@ -19,13 +17,17 @@
 .latest-news,
 .upcoming-matches {
   width: 48%;
-  background-color: var(--secondary-color);
-  color: var(--white-color);
+  background-image: var(--background-image);
+  background-color: rgb(224, 224, 224);
+  background-size: cover;
   padding: 15px;
-  border-radius: 8px;
+  border-radius: var(--border-radius);
 }
 .team-highlights {
   margin-top: 20px;
+  background-image: var(--background-image);
+  padding: 15px;
+  border-radius: 8px;
 }
 
 .highlight-container {
@@ -40,8 +42,7 @@
 }
 
 .team-card {
-  background-color: var(--white-color);
-  border-radius: 8px;
+  border-radius: var(--border-radius);
 }
 
 .video-container {
@@ -57,6 +58,7 @@
   height: 100%;
   left: 0;
   top: 0;
+  border-radius: var(--border-radius);
 }
 .team-logos {
   display: flex;
@@ -77,6 +79,10 @@
 
 .table-container {
   width: 100%;
+  background-image: var(--background-image);
+  padding: 15px;
+  border-radius: var(--border-radius);
+  margin-top: 20px;
 }
 
 .team-cell {

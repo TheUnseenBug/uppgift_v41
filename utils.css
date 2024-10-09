@@ -2,12 +2,18 @@
   padding: 0;
   margin: 0;
 }
+body {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
 :root {
   --primary-color: #0057b8;
   --white-color: #ffffff;
   --accent-color: #ffd700;
   --black-color: #000000;
   --secondary-color: #a3c1e1;
+  --background-image: url("https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Tickets%20Carousel.jpg?clxf=t_background_anysize");
+  --border-radius: 8px;
   font-family: "Arial", sans-serif;
   font-size: clamp(1rem, 2vw, 0.6rem);
 }
