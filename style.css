@@ -4,7 +4,7 @@
 }
 
 .main-content h1 {
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .featured-content {
@@ -16,7 +16,7 @@
 
 .latest-news,
 .upcoming-matches {
-  width: 48%;
+  width: 100%;
   background-image: var(--background-image);
   background-color: rgb(224, 224, 224);
   background-size: cover;
