@@ -1,0 +1,72 @@
+* {
+  color: var(--white-color);
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secondary-color);
+  padding: 20px;
+}
+
+.hero-container img {
+  margin: 5px auto;
+  border-radius: 7px;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.history-container {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+
+.history-container details {
+  width: 80%;
+  max-width: 1200px;
+  margin: 5px;
+}
+
+.history-container summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background: url(https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/icon_add_pCqlyk7.svg)
+    no-repeat 14px 50%;
+  background-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--white-color);
+  text-underline-offset: 7px;
+  cursor: pointer;
+  transform: scaleX(-1);
+  position: relative;
+  width: 100%;
+  user-select: none;
+}
+
+.history-container summary b {
+  display: inline-block;
+  position: relative;
+  right: 6px;
+  transform: scaleX(-1);
+}
+
+.history-container details[open] > summary {
+  list-style: none;
+  background: url(https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/icon_subtract_L6mhED5.png)
+    no-repeat 14px 50%;
+  background-size: 18px;
+}
+
+.history-container label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+}
