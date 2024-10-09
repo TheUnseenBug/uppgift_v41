@@ -5,6 +5,7 @@
 
 .main-content h1 {
   padding: 10px 0px;
+  text-align: center;
 }
 
 .featured-content {
@@ -64,6 +65,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 10px 0px;
 }
 
 .team-logos img {
