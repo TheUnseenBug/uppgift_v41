@@ -21,9 +21,11 @@
   background-image: var(--background-image);
   background-color: rgb(224, 224, 224);
   background-size: cover;
-  padding: 15px;
   border-radius: var(--border-radius);
+  padding: 5px 0px;
+  text-align: center;
 }
+
 .team-highlights {
   margin-top: 20px;
   background-image: var(--background-image);
@@ -106,10 +108,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-  }
-  .latest-news,
-  .upcoming-matches {
     width: 100%;
   }
   .highlight-container {
