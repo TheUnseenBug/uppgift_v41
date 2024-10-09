@@ -99,8 +99,7 @@
 }
 
 .table-row-brighton {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
