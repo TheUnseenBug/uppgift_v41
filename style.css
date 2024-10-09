@@ -80,7 +80,6 @@
 .table-container {
   width: 100%;
   background-image: var(--background-image);
-  padding: 15px;
   border-radius: var(--border-radius);
   margin-top: 20px;
 }
@@ -93,6 +92,11 @@
 
 .team-cell img {
   width: 100%;
+}
+
+.table-row-brighton {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
